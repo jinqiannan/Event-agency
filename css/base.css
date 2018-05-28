@@ -1,0 +1,39 @@
+/**
+*   author:@jinqian
+**/
+@charset 'utf-8';
+*{margin: 0;padding: 0}
+#wrap{
+    width: 900px;
+    margin: 20px auto;
+}
+#ipt input{
+    text-indent: 8px;
+    outline: none;
+}
+
+#content{
+    margin-top: 10px;
+    box-shadow: #ddd 0 0 10px;
+    /* border: 1px solid #f00; */
+}
+.u-message{
+    padding: 4px;
+    /* border: 1px solid #ff0; */
+}
+.u-message p{
+    display: inline-block;
+    padding-left: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+.u-message .done{
+    color: #ddd;
+    text-decoration: line-through;
+}
+.u-message span{
+    float: right;
+    padding-right: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
